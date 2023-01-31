@@ -6,7 +6,7 @@ export default class App {
    #TimerBlock
    constructor() {
       this.#JSBlock = new JSBlock();
-      this.#TimerBlock = new TimerBlock(new Date());
+      this.#TimerBlock = new TimerBlock(new Date(2023, 0, 0));
    }
 
    run() {
