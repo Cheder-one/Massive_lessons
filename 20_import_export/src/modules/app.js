@@ -1,9 +1,9 @@
-class App {
-  run() {
-    document.body.textContent = 'Jello!'
-  }
+export default class App {
+   run() {
+      document.body.textContent = 'Jello Wornd!'
+   }
 }
 
-export {
-  App,
+export function createFn() {
+   console.log('createFn');
 }

@@ -1,6 +1,8 @@
 import './index.css';
-import { App } from './src/modules/app.js'
+// import { App as AppComponent } from './src/modules/app.js'
+import ClassApp from './src/modules/app.js'
 
-const app =
+const app = new ClassApp()
+app.run();
 
 console.log('__work__');
