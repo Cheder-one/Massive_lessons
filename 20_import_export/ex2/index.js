@@ -12,3 +12,4 @@ cookieConsentButton.addEventListener('click', function() {
 if (isCookieClick === 'true') {
    cookieConsent.remove();
 }
+
